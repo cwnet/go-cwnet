@@ -28,7 +28,7 @@ lint:
 	build/env.sh go run build/ci.go lint
 
 clean:
-	rm -fr build/_workspace/pkg/ $(GOBIN)/*
+	rm -fr build/_workspace/pkg/ $(GOBIN)/* test.log*
 
 gcwnet-windows: gcwnet-windows-386 gcwnet-windows-amd64
 	@echo "Windows cross compilation done:"
