@@ -2,6 +2,51 @@
 
 
 [[projects]]
+  branch = "master"
+  name = "github.com/lestrrat/go-file-rotatelogs"
+  packages = ["."]
+  revision = "d3151e2a480fdcd05fb97102f5310a47d96274c4"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/lestrrat/go-strftime"
+  packages = ["."]
+  revision = "ba3bf9c1d0421aa146564a632931730344f1f9f1"
+
+[[projects]]
+  name = "github.com/pkg/errors"
+  packages = ["."]
+  revision = "645ef00459ed84a119197bfb8d8205042c6df63d"
+  version = "v0.8.0"
+
+[[projects]]
+  name = "github.com/rifflock/lfshook"
+  packages = ["."]
+  revision = "bf539943797a1f34c1f502d07de419b5238ae6c6"
+  version = "v2.3"
+
+[[projects]]
+  name = "github.com/sirupsen/logrus"
+  packages = ["."]
+  revision = "c155da19408a8799da419ed3eeb0cb5db0ad5dbc"
+  version = "v1.0.5"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/crypto"
+  packages = ["ssh/terminal"]
+  revision = "a49355c7e3f8fe157a85be2f77e6e269a0f89602"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/sys"
+  packages = [
+    "unix",
+    "windows"
+  ]
+  revision = "a200a19cb90b19de298170992778b1fda7217bd6"
+
+[[projects]]
   name = "gopkg.in/urfave/cli.v1"
   packages = ["."]
   revision = "cfb38830724cc34fedffe9a2a29fb54fa9169cd1"
@@ -10,6 +55,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "31a875231f3ca87038f250aaf7575aad37b2ec5481e318e1071bff16b72d8182"
+  inputs-digest = "d2d14f072300d29d06a37a9deaa1dbb9a0567f38bdd7ee3cd44249868edb651d"
   solver-name = "gps-cdcl"
   solver-version = 1
